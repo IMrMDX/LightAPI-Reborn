@@ -6,7 +6,7 @@
 
     <groupId>ru.beykerykt</groupId>
     <artifactId>LightAPI-Reborn</artifactId>
-    <version>3.5.2</version>
+    <version>1.0.1</version>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
