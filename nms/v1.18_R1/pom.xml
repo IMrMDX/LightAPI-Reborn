@@ -21,6 +21,10 @@
             <url>https://repo.rosewooddev.io/repository/public/
             </url>
         </repository>
+        <repository>
+            <id>spigot-repos</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+        </repository>
     </repositories>
 
     <dependencies>
