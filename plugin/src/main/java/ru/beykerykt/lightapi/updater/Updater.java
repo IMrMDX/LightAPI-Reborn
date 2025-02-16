@@ -23,9 +23,9 @@
  */
 package ru.beykerykt.lightapi.updater;
 
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-import org.json.simple.JSONValue;
+import org.json.JSONArray;
+import org.json.JSONObject;
+;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -215,7 +215,7 @@ public class Updater {
 				buffer.append(line);
 			}
 
-			JSONArray releases = (JSONArray) JSONValue.parse(buffer.toString());
+			JSONArray releases = new JSONArray(buffer.toString());
 			log(Level.INFO, "Parsing the returned JSON");
 
 			if (releases.isEmpty()) {

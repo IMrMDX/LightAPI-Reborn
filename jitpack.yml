@@ -1,6 +1,0 @@
-jdk:
-  - openjdk8
-
-install:
-  - mvn clean install -pl common -am -DskipTests
-  - mvn clean package
